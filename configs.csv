@@ -1,0 +1,9 @@
+config_id,data_frequency,no_of_datapoints,sequence_size,horizon,hidden_layers,weight_inital_value,bias_inital_value,forget_bias,learning_rate,data_split_coeffs,batch_size,dropout_ratio,total_epochs,target_parameter,target_threshold,target_logic,postive_results,negative_results,session_results,session_best_epoch
+0,hourly,49000,48,1,128,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18516,30482,76.93229019641876,232
+1,hourly,49000,72,1,128,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18516,30482,78.13373804092407,245
+2,hourly,49000,48,1,64,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18516,30482,76.44522488117218,251
+3,hourly,49000,72,1,64,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18516,30482,76.83949768543243,256
+4,hourly,49000,48,2,128,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18516,30482,64.4362837076187,35
+5,hourly,49000,72,2,128,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18544,30454,64.2446488142014,38
+6,hourly,49000,48,2,64,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18544,30454,57.4097722768784,249
+7,hourly,49000,72,2,64,1,1,1,5e-06,70_30,128,0.4,256,BTC_price_usd_close,0.001,"absolute, greater than",18544,30454,64.4682198762894,215
